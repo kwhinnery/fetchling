@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "test": "deno test --allow-net",
+    "dnd": "deno run --allow-net --allow-write --allow-read examples/dnd.ts"
+  }
+}
