@@ -8,7 +8,7 @@ fetch has largely eliminated the need for HTTP client libraries in JavaScript
 applications.
 
 That being said, `fetch` does require a non-trivial amount of boilerplate.
-Fetchling provides a tiny layer abstraction that helps remove some of that
+Fetchling provides a tiny layer of abstraction that helps remove some of that
 boilerplate, especially when making similar requests to the same collection of
 REST API endpoints.
 
