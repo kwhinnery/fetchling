@@ -87,7 +87,7 @@ export class Fetchling {
   static create(
     url: string | URL,
     init?: FRequestInit | undefined,
-  ) {
+  ): Fetchling {
     /*
       This is the chainable function that generates new Fetchlings as a
       subresource of the current Fetchling. Example:
